@@ -22,7 +22,7 @@ function App() {
           <div className="hero-text">
             <h1>Budget Transparancy and Accountibility</h1>
             <p>Empowering financial clarity to Citizens</p>
-            <button>View Services</button>
+            <button><a href='https://ramseraph.github.io/opendata/'>View Services</a></button>
           </div>
         </div>
         <div className="section-two">
@@ -34,6 +34,14 @@ function App() {
             </div>
             <img src={sec2Image} alt="img" />
           </div>
+        </div>
+        <div className="section-three">
+        <p>WHAT WE CAN DO FOR YOU</p>
+        <div className="ssection-three-text">
+          <div className="text">
+            <h2>A wide range of services to meet all of your needs</h2>
+          </div>
+        </div>
         </div>
       </div>
     </div>
