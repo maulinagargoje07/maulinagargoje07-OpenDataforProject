@@ -2,9 +2,17 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import sec2Image from './assets/Sec2.jpg';
+import sec2Image from './assets/images/Sec2.jpg';
+import FinancialImage from './assets/images/Financial-Transparency.jpg';
+import AccountabilityImage from './assets/images/Accountability.jpg';
+import EmpowermentImage from './assets/images/Empowerment.jpg';
 
 function App() {
+  const handleScroll = () => {
+    const element = document.getElementById('section-two');
+    element.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <>
     <div className="container">
@@ -22,7 +30,7 @@ function App() {
           <div className="hero-text">
             <h1>Budget Transparancy and Accountibility</h1>
             <p>Empowering financial clarity to Citizens</p>
-            <button><a href='https://ramseraph.github.io/opendata/'>View Services</a></button>
+            <button className='button01'><a href='#section-three'>View Services</a></button>
           </div>
         </div>
         <div className="section-two">
@@ -40,6 +48,23 @@ function App() {
         <div className="ssection-three-text">
           <div className="text">
             <h2>A wide range of services to meet all of your needs</h2>
+            <div className="text-boxes">
+              <button className='button02'><div className="text-box">
+              <img src={FinancialImage} alt="img" />
+                <h3>Financial Transparency</h3>
+                <p>Our platform provides financial transparency to citizens by providing them with the necessary information about the budget allocation in their area.</p>
+              </div></button>
+              <button className='button02'><div className="text-box">
+              <img src={AccountabilityImage} alt="img" />
+                <h3>Accountability</h3>
+                <p>We are committed to ensuring accountability in financial matters by providing citizens with the necessary tools to hold their leaders accountable.</p>
+              </div></button>
+              <button className='button02'><div className="text-box">
+              <img src={EmpowermentImage} alt="img" />
+                <h3>Empowerment</h3>
+                <p>Our platform empowers citizens by providing them with the information they need to make informed decisions about the budget allocation in their area.</p>
+              </div></button>
+            </div>
           </div>
         </div>
         </div>
