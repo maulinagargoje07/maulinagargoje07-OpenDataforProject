@@ -68,6 +68,19 @@ function App() {
           </div>
         </div>
         </div>
+        <div className="section-forth">
+          <p>Sectors</p>
+          <div className="sectors">
+            <button className='button03'>
+              <a href='https://data.gov.in/catalogs?sector=Education'>Education</a>
+            </button>
+            <button className='button03'><a href='https://data.gov.in/catalogs?sector=Health%20and%20Family%20welfare'>Health and Family welfare</a></button>
+            <button className='button03'><a href='https://data.gov.in/catalogs?sector=Agriculture'>Agriculture</a></button>
+            <button className='button03'><a href='https://data.gov.in/catalogs?sector=Governance%20and%20Administration'>Governance and Administration</a></button>
+            <button className='button03'><a href='https://data.gov.in/catalogs?sector=Transport'>Transport</a></button>
+            <button className='button03'><a href='https://data.gov.in/catalogs?sector=Labour%20and%20Employment'>Labour and Employment</a></button>
+          </div>
+        </div>
       </div>
     </div>
     </>
