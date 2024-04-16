@@ -80,6 +80,7 @@ function App() {
             <button className='button03'><a href='https://data.gov.in/catalogs?sector=Transport'>Transport</a></button>
             <button className='button03'><a href='https://data.gov.in/catalogs?sector=Labour%20and%20Employment'>Labour and Employment</a></button>
             <button className='button03'><a href='https://ramseraph.github.io/opendata/'>Day wise financial record</a></button>
+            <button className='button03'><a href='https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag4.pdf'>Budget 2024 at Glance</a></button>
           </div>
         </div>
       </div>
