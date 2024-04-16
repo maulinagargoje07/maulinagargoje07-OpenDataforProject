@@ -79,6 +79,7 @@ function App() {
             <button className='button03'><a href='https://data.gov.in/catalogs?sector=Governance%20and%20Administration'>Governance and Administration</a></button>
             <button className='button03'><a href='https://data.gov.in/catalogs?sector=Transport'>Transport</a></button>
             <button className='button03'><a href='https://data.gov.in/catalogs?sector=Labour%20and%20Employment'>Labour and Employment</a></button>
+            <button className='button03'><a href='https://ramseraph.github.io/opendata/'>Day wise financial record</a></button>
           </div>
         </div>
       </div>
