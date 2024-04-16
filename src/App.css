@@ -228,7 +228,7 @@ p {
   }
 
   .section-two {
-    width: 100%;
+    width: 90%;
     height: 100vh;
     padding-top: 100px;
   }
@@ -243,7 +243,7 @@ p {
   }
   
   .section-two-text {
-    width: 100%;
+    width: 90%;
     display: block;
   }
   
@@ -283,7 +283,7 @@ p {
   }
 
   .text-boxes {
-    width: 100%;
+    width: 90%;
     display: block;
     padding-top: 50px;
   }
@@ -311,7 +311,7 @@ p {
   }
   
   .sectors {
-    width: 100%;
+    width: 90%;
     height: 660px;
     display: block;
     align-items: center;
